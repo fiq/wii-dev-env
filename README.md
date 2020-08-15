@@ -4,7 +4,7 @@ I've thrown this together for the kids to mess around with. It puts some layers
 around the devkitpro container.
 
 # To Start 
-``dc up``
+``docker-compose up``
 
 # Set up DevCode
 
