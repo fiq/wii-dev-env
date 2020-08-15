@@ -10,7 +10,7 @@ around the devkitpro container.
 
 1. Copy a starter project from workspace into build. Eg ``cp -r workspace/examples/wii/graphics/gx/triangle builds``
 1. Start the container with ``docker-compose up``
-1. The container will loop and continuously run make in the folder
+1. The container will loop and continuously run make in the builds folder
 1. See ``builds/wiidev.failure`` for errors from the build
 1. See ``builds/wiidev.output`` for other output 
 
