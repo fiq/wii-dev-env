@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+    wiidev:
+      build:
+        context: ./wiidev
+        dockerfile: ./Dockerfile
+      volumes:
+       - ./builds:/builds
+       - ./workspace:/workspace
+      environment:
+          - LANG=en_NZ.UTF-8
+          - TERM=vt100
