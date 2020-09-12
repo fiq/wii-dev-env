@@ -19,3 +19,6 @@ around the devkitpro container.
 You can start and control tmux sessions on the container:
 ``docker-compose exec wiidev -it tmux``
 
+# Documentation
+
+See docs on [libogc functions](https://libogc.devkitpro.org/gx_8h.html)
